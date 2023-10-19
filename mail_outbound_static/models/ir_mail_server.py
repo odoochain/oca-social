@@ -11,6 +11,7 @@ from odoo.exceptions import ValidationError
 class IrMailServer(models.Model):
 
     _inherit = "ir.mail_server"
+    _order = "sequence"
 
     smtp_from = fields.Char(
         string="Email From",
@@ -96,9 +97,7 @@ class IrMailServer(models.Model):
         return smtp_from, smtp_to_list, message
 
     @api.model
-    def send_email(
-        self, message, mail_server_id=None, smtp_server=None, *args, **kwargs
-    ):
+    def send_email(self, message, mail_server_id=None, smtp_server=None, *args, **kwargs):
         # Get email_from and name_from
         if message["From"].count("<") > 1:
             split_from = message["From"].rsplit(" <", 1)
