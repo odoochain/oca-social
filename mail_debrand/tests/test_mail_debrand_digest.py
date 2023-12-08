@@ -5,7 +5,7 @@
 
 from datetime import datetime
 
-from werkzeug.urls import url_join
+from urllib.parse import urljoin
 
 from odoo import _
 from odoo.tests import common, tagged
@@ -42,7 +42,7 @@ class TestMailDebrandDigest(common.TransactionCase):
             add_context={
                 "title": self.mail_digest_id.name,
                 "top_button_label": _("Connect"),
-                "top_button_url": url_join(web_base_url, "/web/login"),
+                "top_button_url": urljoin(web_base_url, "/web/login"),
                 "company": self.env.user.company_id,
                 "user": self.env.user,
                 "tips_count": 1,
