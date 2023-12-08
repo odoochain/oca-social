@@ -4,12 +4,12 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2023-12-01 12:33+0000\n"
-"Last-Translator: mymage <stefano.consolaro@mymage.it>\n"
+"PO-Revision-Date: 2023-11-08 12:58+0000\n"
+"Last-Translator: Ivorra78 <informatica@totmaterial.es>\n"
 "Language-Team: none\n"
-"Language: it\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -19,156 +19,156 @@ msgstr ""
 #. module: mail_activity_team
 #: model:ir.model.fields,field_description:mail_activity_team.field_mail_activity_team__active
 msgid "Active"
-msgstr "Attivo"
+msgstr "Activado"
 
 #. module: mail_activity_team
 #: model:ir.model,name:mail_activity_team.model_mail_activity
 msgid "Activity"
-msgstr "Attività"
+msgstr "Actividad"
 
 #. module: mail_activity_team
 #: model:ir.model,name:mail_activity_team.model_mail_activity_mixin
 msgid "Activity Mixin"
-msgstr "Mixin attività"
+msgstr "Mezclador de Actividad"
 
 #. module: mail_activity_team
 #: model:ir.model.fields,field_description:mail_activity_team.field_ir_actions_server__activity_team_id
 #: model:ir.model.fields,field_description:mail_activity_team.field_ir_cron__activity_team_id
 #: model_terms:ir.ui.view,arch_db:mail_activity_team.mail_activity_team_view_form
 msgid "Activity Team"
-msgstr "Team Attività"
+msgstr "Equipo de Actividad"
 
 #. module: mail_activity_team
 #: model:ir.actions.act_window,name:mail_activity_team.mail_activity_team_action
 #: model:ir.model.fields,field_description:mail_activity_team.field_res_users__activity_team_ids
 #: model:ir.ui.menu,name:mail_activity_team.menu_mail_activity_team
 msgid "Activity Teams"
-msgstr "Team Attività"
+msgstr "Equipos de Actividad"
 
 #. module: mail_activity_team
 #: model:ir.model,name:mail_activity_team.model_mail_activity_type
 msgid "Activity Type"
-msgstr "Tipo attività"
+msgstr "Tipo de Actividad"
 
 #. module: mail_activity_team
 #: model_terms:ir.ui.view,arch_db:mail_activity_team.mail_activity_team_view_form
 msgid "Archived"
-msgstr "In archivio"
+msgstr "Archivado"
 
 #. module: mail_activity_team
 #: model_terms:ir.ui.view,arch_db:mail_activity_team.mail_activity_team_view_form
 msgid "Assign to missing activities"
-msgstr "Assegna ad attività mancanti"
+msgstr "Asignar a Actividades pendientes"
 
 #. module: mail_activity_team
 #: model:ir.model.fields,field_description:mail_activity_team.field_mail_activity_team__create_uid
 msgid "Created by"
-msgstr "Creato da"
+msgstr "Creado por"
 
 #. module: mail_activity_team
 #: model:ir.model.fields,field_description:mail_activity_team.field_mail_activity_team__create_date
 msgid "Created on"
-msgstr "Creato il"
+msgstr "Creado el"
 
 #. module: mail_activity_team
 #: model:ir.model.fields,field_description:mail_activity_team.field_mail_activity_type__default_team_id
 msgid "Default Team"
-msgstr "Team predefinito"
+msgstr "Equipo Predeterminado"
 
 #. module: mail_activity_team
 #: model:ir.model.fields,field_description:mail_activity_team.field_mail_activity_team__display_name
 msgid "Display Name"
-msgstr "Nome visualizzato"
+msgstr "Mostrar Nombre"
 
 #. module: mail_activity_team
 #: model:ir.model.fields,field_description:mail_activity_team.field_mail_activity_team__id
 msgid "ID"
-msgstr "ID"
+msgstr "ID (identificación)"
 
 #. module: mail_activity_team
 #: model:ir.model.fields,field_description:mail_activity_team.field_mail_activity_team____last_update
 msgid "Last Modified on"
-msgstr "Ultima modifica il"
+msgstr "Última Modificación el"
 
 #. module: mail_activity_team
 #: model:ir.model.fields,field_description:mail_activity_team.field_mail_activity_team__write_uid
 msgid "Last Updated by"
-msgstr "Ultimo aggiornamento di"
+msgstr "Actualizado por Última vez por"
 
 #. module: mail_activity_team
 #: model:ir.model.fields,field_description:mail_activity_team.field_mail_activity_team__write_date
 msgid "Last Updated on"
-msgstr "Ultima Modifica il"
+msgstr "Última Actualización el"
 
 #. module: mail_activity_team
 #: model:ir.model,name:mail_activity_team.model_mail_activity_team
 msgid "Mail Activity Team"
-msgstr "Team Attività Messaggi"
+msgstr "Equipo de Actividad Postal"
 
 #. module: mail_activity_team
 #: model_terms:ir.ui.view,arch_db:mail_activity_team.mail_activity_team_view_form
 msgid "Members"
-msgstr "Membri"
+msgstr "Miembros"
 
 #. module: mail_activity_team
 #: model:ir.model.fields,field_description:mail_activity_team.field_mail_activity_team__count_missing_activities
 msgid "Missing Activities"
-msgstr "Attività Mancanti"
+msgstr "Actividades Pendientes"
 
 #. module: mail_activity_team
 #. odoo-javascript
 #: code:addons/mail_activity_team/static/src/components/activity_menu_view/activity_menu_view.xml:0
 #, python-format
 msgid "My Activities"
-msgstr "Le mie attività"
+msgstr "Mis Actividades"
 
 #. module: mail_activity_team
 #: model_terms:ir.ui.view,arch_db:mail_activity_team.mail_activity_view_search
 msgid "My Team Activities"
-msgstr "Attività del mio team"
+msgstr "Mis Actividades en Equipo"
 
 #. module: mail_activity_team
 #: model:ir.model.fields,field_description:mail_activity_team.field_mail_activity_team__name
 msgid "Name"
-msgstr "Nome"
+msgstr "nombre"
 
 #. module: mail_activity_team
 #: model:ir.model,name:mail_activity_team.model_ir_actions_server
 msgid "Server Action"
-msgstr "Azione server"
+msgstr "Acción de Servidor"
 
 #. module: mail_activity_team
 #: model:ir.model.fields,field_description:mail_activity_team.field_mail_activity__team_id
 #: model_terms:ir.ui.view,arch_db:mail_activity_team.mail_activity_view_search
 msgid "Team"
-msgstr "Team"
+msgstr "Equipo"
 
 #. module: mail_activity_team
 #. odoo-javascript
 #: code:addons/mail_activity_team/static/src/components/activity_menu_view/activity_menu_view.xml:0
 #, python-format
 msgid "Team Activities"
-msgstr "Attività del mio team"
+msgstr "Actividades de Equipo"
 
 #. module: mail_activity_team
 #: model:ir.model.fields,field_description:mail_activity_team.field_mail_activity_team__user_id
 msgid "Team Leader"
-msgstr "Capo Team"
+msgstr "Líder de Equipo"
 
 #. module: mail_activity_team
 #: model:ir.model.fields,field_description:mail_activity_team.field_mail_activity_team__member_ids
 msgid "Team Members"
-msgstr "Membri Team"
+msgstr "Miembros del Equipo"
 
 #. module: mail_activity_team
 #: model:ir.model.fields,field_description:mail_activity_team.field_mail_activity__team_user_id
 msgid "Team user"
-msgstr "Utente del team"
+msgstr "Usuario del Equipo"
 
 #. module: mail_activity_team
 #: model_terms:ir.ui.view,arch_db:mail_activity_team.mail_activity_view_kanban
 msgid "Team:"
-msgstr "Team:"
+msgstr "Equipo:"
 
 #. module: mail_activity_team
 #. odoo-python
@@ -176,18 +176,19 @@ msgstr "Team:"
 #, python-format
 msgid ""
 "The assigned user %(user_name)s is not member of the team %(team_name)s."
-msgstr "L'utente assegnato %(user_name)s nn è un membro del team %(team_name)s."
+msgstr ""
+"El usuario asignado %(user_name)s no es miembro del equipo %(team_name)s."
 
 #. module: mail_activity_team
 #: model:ir.model.fields,field_description:mail_activity_team.field_mail_activity_team__res_model_ids
 msgid "Used models"
-msgstr "Modelli usati"
+msgstr "Modelos usados"
 
 #. module: mail_activity_team
 #: model:ir.model,name:mail_activity_team.model_res_users
 #: model:ir.model.fields,field_description:mail_activity_team.field_mail_activity__user_id
 msgid "User"
-msgstr "Utente"
+msgstr "Usuario"
 
 #. module: mail_activity_team
 #: model:ir.model.fields,field_description:mail_activity_team.field_account_bank_statement_line__activity_team_user_ids
@@ -203,10 +204,4 @@ msgstr "Utente"
 #: model:ir.model.fields,field_description:mail_activity_team.field_res_partner_bank__activity_team_user_ids
 #: model:ir.model.fields,field_description:mail_activity_team.field_res_users__activity_team_user_ids
 msgid "test field"
-msgstr "campo test"
-
-#~ msgid "Users"
-#~ msgstr "Utenti"
-
-#~ msgid "The assigned user is not member of the team."
-#~ msgstr "L'utente assegnato non è un membro del team."
+msgstr "campo de prueba"
